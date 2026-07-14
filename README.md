@@ -1,6 +1,7 @@
 # chinese-pos-classifier（汉语词类划分器）
 
-一个给 Claude 用的 [Agent Skill](https://docs.claude.com/en/docs/agents-and-tools/agent-skills/overview)，用于对汉语语素组（候选词、单字、词语）做成词判断和词类归类，依据北大版现代汉语词类标注标准，支持兼类词识别，并对判断依据不充分的模糊案例明确标注、列出多种可能归类及各自理由，而不是强行给出单一答案。
+一个 [Agent Skill](https://docs.claude.com/en/docs/agents-and-tools/agent-skills/overview)，用于对汉语语素组（候选词、单字、词语）做成词判断和词类归类，依据北大版现代汉语词类标注标准，支持兼类词识别，并对判断依据不充分的模糊案例明确标注、列出多种可能归类及各自理由，而不是强行给出单一答案。
+灵感来自于被现代汉语逼疯的期末周。
 
 ## 这个 skill 做什么
 
