@@ -29,16 +29,6 @@ chinese-pos-classifier/
     └── calibration_examples.md       # 已有标准答案的例词，用于校准判断方法
 ```
 
-## 安装
-
-**Claude.ai / Cowork（推荐）**
-
-如果你拿到的是打包好的 `chinese-pos-classifier.skill` 文件，直接在对话里打开这个文件，会看到一个"保存技能"（Save skill）按钮，点击后会安装进你的技能库，之后聊天里提到判断中文词性、词类划分相关的任务会自动触发。
-
-**从源码安装 / Claude Code**
-
-把整个 `chinese-pos-classifier/` 文件夹放进你的 skills 目录即可（具体路径取决于你用的是 Claude Code 还是其他基于 Claude Agent SDK 的客户端，参考各自文档里 skills 目录的说明）。
-
 ## 使用示例
 
 ```
